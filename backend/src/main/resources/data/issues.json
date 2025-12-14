@@ -1,0 +1,276 @@
+[
+  {
+    "id": "housing-affordability",
+    "title": "Urban Housing Affordability Crisis",
+    "description": "Rapidly increasing housing costs in major urban areas have made homeownership and even rental housing increasingly unaffordable for middle and lower-income residents.",
+    "problemDefinition": "Housing costs in major metropolitan areas have outpaced wage growth by significant margins over the past two decades. In many cities, median housing prices are 8-12x median household income, compared to historical norms of 3-4x. This creates severe economic stress, forces long commutes, and contributes to homelessness.",
+    "rootCauses": [
+      "Restrictive zoning laws limiting high-density development",
+      "NIMBYism blocking new construction in desirable neighborhoods",
+      "Land use regulations increasing construction costs",
+      "Limited public transit reducing viable housing locations",
+      "Housing treated as investment vehicle driving speculation",
+      "Wage stagnation not keeping pace with cost increases",
+      "Geographic constraints in coastal cities"
+    ],
+    "commonSolutions": [
+      {
+        "name": "Upzone residential areas to allow higher density",
+        "strengths": [
+          "Increases housing supply where demand is highest",
+          "Utilizes existing infrastructure",
+          "Can create more walkable, transit-oriented neighborhoods"
+        ],
+        "weaknesses": [
+          "Faces fierce political opposition from homeowners",
+          "May change neighborhood character",
+          "Benefits take years to materialize",
+          "Can accelerate gentrification if not paired with affordability requirements"
+        ]
+      },
+      {
+        "name": "Rent control and price stabilization",
+        "strengths": [
+          "Immediate relief for current renters",
+          "Prevents displacement",
+          "Politically popular with renters"
+        ],
+        "weaknesses": [
+          "Reduces incentive to build new housing",
+          "Creates misallocation (people staying in too-large units)",
+          "Benefits primarily current renters, not future ones",
+          "Economic consensus suggests it reduces overall supply"
+        ]
+      },
+      {
+        "name": "Subsidized affordable housing construction",
+        "strengths": [
+          "Directly creates below-market housing",
+          "Can target specific income levels",
+          "Can be paired with supportive services"
+        ],
+        "weaknesses": [
+          "Extremely expensive per unit",
+          "Slow to build at scale",
+          "Often concentrated in less desirable areas",
+          "Requires sustained political will and funding"
+        ]
+      }
+    ],
+    "historicalAttempts": [
+      {
+        "location": "San Francisco, CA",
+        "approach": "Strict rent control combined with limited upzoning",
+        "outcome": "Housing crisis worsened; median rents among highest in nation despite controls"
+      },
+      {
+        "location": "Minneapolis, MN",
+        "approach": "Citywide elimination of single-family zoning (2040 Plan)",
+        "outcome": "Early implementation; some increase in multi-unit construction, long-term impacts TBD"
+      },
+      {
+        "location": "Vienna, Austria",
+        "approach": "Large-scale public housing (60% of residents in social housing)",
+        "outcome": "Widely considered successful; high quality, mixed-income housing; requires sustained political commitment"
+      }
+    ],
+    "constraints": {
+      "budgetary": "Public housing construction costs $300k-$800k per unit in high-cost cities. Subsidies at scale require tens of billions annually.",
+      "political": "Homeowners are politically organized and oppose density increases. Developers often resist affordability requirements. Federal housing funding has declined.",
+      "logistical": "Construction capacity is limited. Skilled labor shortages. Permitting processes take years. Infrastructure (water, transit) may need expansion."
+    },
+    "ethicalConsiderations": [
+      "Housing as human right vs. property rights of current owners",
+      "Generational equity: policies favoring current homeowners vs. future residents",
+      "Spatial justice: concentration of affordable housing in specific areas",
+      "Gentrification and displacement of long-time residents",
+      "Environmental impact of sprawl vs. density"
+    ]
+  },
+  {
+    "id": "healthcare-access",
+    "title": "Healthcare Access and Affordability",
+    "description": "Millions of Americans lack adequate health insurance or face crippling medical costs, while healthcare spending consumes an increasing share of GDP without commensurate health outcomes.",
+    "problemDefinition": "The U.S. spends nearly 18% of GDP on healthcare, far more than peer nations, yet millions remain uninsured or underinsured. Medical debt is a leading cause of bankruptcy. Life expectancy lags behind other developed nations despite higher spending.",
+    "rootCauses": [
+      "Employment-based insurance system leaves gaps for unemployed and self-employed",
+      "High administrative costs due to fragmented payer system",
+      "Fee-for-service incentivizes volume over outcomes",
+      "Pharmaceutical pricing lacks negotiation constraints",
+      "Consolidation among providers reducing competition",
+      "Defensive medicine and malpractice costs",
+      "Chronic disease prevalence driven by lifestyle factors"
+    ],
+    "commonSolutions": [
+      {
+        "name": "Single-payer universal healthcare (Medicare for All)",
+        "strengths": [
+          "Universal coverage, no uninsured",
+          "Eliminates administrative waste from multiple payers",
+          "Strong negotiating power on prices",
+          "Removes healthcare from employment decisions"
+        ],
+        "weaknesses": [
+          "Massive transition costs and disruption",
+          "Would eliminate private insurance industry",
+          "Uncertain quality and wait times",
+          "Requires significant tax increases",
+          "Political feasibility extremely low"
+        ]
+      },
+      {
+        "name": "Public option competing with private insurance",
+        "strengths": [
+          "Expands coverage without eliminating private insurance",
+          "Market competition may lower costs",
+          "More politically feasible than single-payer",
+          "Allows gradual transition"
+        ],
+        "weaknesses": [
+          "Risk of adverse selection (sickest gravitate to public plan)",
+          "May not achieve full cost savings of single-payer",
+          "Requires careful design to avoid undercutting private market",
+          "Administrative complexity remains"
+        ]
+      },
+      {
+        "name": "Expand ACA subsidies and Medicaid",
+        "strengths": [
+          "Builds on existing framework",
+          "Proven to reduce uninsured rate",
+          "Relatively low disruption",
+          "Targets most vulnerable populations"
+        ],
+        "weaknesses": [
+          "Doesn't address underlying cost growth",
+          "Leaves gaps in coverage",
+          "Subsidies are expensive",
+          "Requires ongoing federal commitment"
+        ]
+      }
+    ],
+    "historicalAttempts": [
+      {
+        "location": "Massachusetts",
+        "approach": "State-level individual mandate and subsidized exchange (Romneycare)",
+        "outcome": "Achieved near-universal coverage; served as model for ACA; costs remain high"
+      },
+      {
+        "location": "United Kingdom",
+        "approach": "National Health Service (fully public, tax-funded)",
+        "outcome": "Universal coverage at lower cost than U.S.; faces wait time issues and underfunding pressures"
+      },
+      {
+        "location": "Germany",
+        "approach": "Multi-payer system with mandatory insurance and strong regulation",
+        "outcome": "Universal coverage; costs lower than U.S. but rising; preserves private insurance role"
+      }
+    ],
+    "constraints": {
+      "budgetary": "Single-payer estimates range from $28-$36 trillion over 10 years. Current system costs ~$50 trillion. Net savings uncertain.",
+      "political": "Private insurance industry employs millions and spends heavily on lobbying. Voters fear losing current coverage. Congressional gridlock.",
+      "logistical": "Transitioning 180 million people from employer insurance. Retraining for displaced insurance workers. Rate-setting for all services. Provider participation."
+    },
+    "ethicalConsiderations": [
+      "Healthcare as right vs. market good",
+      "Rationing and wait times vs. ability to pay",
+      "Allocation of expensive treatments with marginal benefits",
+      "End-of-life care costs and dignity",
+      "Balancing innovation incentives with affordability"
+    ]
+  },
+  {
+    "id": "climate-change-mitigation",
+    "title": "Climate Change Mitigation and Adaptation",
+    "description": "Rising global temperatures and extreme weather events threaten ecosystems, infrastructure, and human wellbeing, requiring both emissions reduction and adaptation strategies.",
+    "problemDefinition": "Global temperatures have risen ~1.1°C above pre-industrial levels, with current trajectory pointing to 2.5-3°C by 2100. This brings increased extreme weather, sea level rise, agricultural disruption, and ecosystem collapse. Requires both reducing emissions and adapting to locked-in changes.",
+    "rootCauses": [
+      "Fossil fuel dependence for energy, transportation, manufacturing",
+      "Externalized costs: carbon emissions impose costs on society, not emitters",
+      "Path dependence: trillions invested in fossil fuel infrastructure",
+      "Global coordination problem: benefits of action are global, costs are local",
+      "Short-term political incentives vs. long-term problem",
+      "Economic growth model dependent on energy consumption",
+      "Developing nations' aspirations to industrialize"
+    ],
+    "commonSolutions": [
+      {
+        "name": "Carbon pricing (tax or cap-and-trade)",
+        "strengths": [
+          "Market-based: lets economy find cheapest reductions",
+          "Creates ongoing incentive for innovation",
+          "Can be revenue-neutral or fund green investments",
+          "Aligns private incentives with social costs"
+        ],
+        "weaknesses": [
+          "Regressive without rebates",
+          "Political toxicity of new taxes",
+          "Hard to set right price level",
+          "Risk of capital flight without global coordination",
+          "Takes time to shift behavior and infrastructure"
+        ]
+      },
+      {
+        "name": "Renewable energy subsidies and mandates",
+        "strengths": [
+          "Directly accelerates clean energy deployment",
+          "Politically more palatable than carbon taxes",
+          "Creates jobs in growing sector",
+          "Costs of renewables have fallen dramatically"
+        ],
+        "weaknesses": [
+          "Subsidies are expensive and distortionary",
+          "Intermittency requires backup power or storage",
+          "Transmission infrastructure investment needed",
+          "Doesn't address non-energy emissions (agriculture, industrial)",
+          "May lock in current technologies vs. better future ones"
+        ]
+      },
+      {
+        "name": "Regulatory mandates (vehicle emissions, building codes, etc.)",
+        "strengths": [
+          "Can achieve specific targets with certainty",
+          "Avoids need for carbon pricing",
+          "Can drive technology development",
+          "Addresses market failures"
+        ],
+        "weaknesses": [
+          "Less economically efficient than pricing",
+          "Requires extensive technical knowledge",
+          "Compliance costs fall unevenly",
+          "Can be evaded or undermined",
+          "Piecemeal approach may miss cheapest reductions"
+        ]
+      }
+    ],
+    "historicalAttempts": [
+      {
+        "location": "British Columbia, Canada",
+        "approach": "Revenue-neutral carbon tax starting at $10/ton CO2",
+        "outcome": "Reduced emissions 5-15% while maintaining economic growth; rebates addressed regressivity"
+      },
+      {
+        "location": "European Union",
+        "approach": "Cap-and-trade system (EU ETS) covering major emitters",
+        "outcome": "Reduced covered emissions ~35% since 2005; price volatility and free permit issues"
+      },
+      {
+        "location": "Germany",
+        "approach": "Aggressive renewable subsidies (Energiewende)",
+        "outcome": "Renewables now ~50% of electricity; very expensive; coal generation persisted until recently"
+      }
+    ],
+    "constraints": {
+      "budgetary": "IEA estimates $4 trillion/year investment needed globally to reach net zero by 2050. Adaptation costs for developing nations: $140-300 billion/year by 2030.",
+      "political": "Fossil fuel interests resist change. International coordination difficult. Voters resist higher energy costs. Developing nations demand equity. Timelines exceed electoral cycles.",
+      "logistical": "Transforming global energy system in 25 years unprecedented. Grid upgrades. Supply chains for clean tech. Workforce transition. Technology deployment at massive scale."
+    },
+    "ethicalConsiderations": [
+      "Intergenerational justice: current benefits vs. future harms",
+      "Global equity: developed nations caused problem, developing nations most vulnerable",
+      "Just transition: protecting workers in fossil fuel industries",
+      "Rights of future generations and non-human species",
+      "Tradeoffs between mitigation and adaptation spending"
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          # Use local JWKS for faster development (optional)
+          jwk-set-uri: ${AUTH0_ISSUER_URI}.well-known/jwks.json
+
+app:
+  openai:
+    model: gpt-3.5-turbo  # Cheaper model for development
+    temperature: 0.5
+    max-tokens: 1500
+
+logging:
+  level:
+    com.socialstresstest: DEBUG
+    org.springframework.security: DEBUG
+    org.springframework.web: DEBUG
